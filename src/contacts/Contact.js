@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Contact.css"
 const Contact = () => {
     const initialvalues={CustomerName:"",ContactNumber:"",CustomerLocation:"",CustomerEmial:""};
-    const [formvalues,setFormvalues]=useState
     return <div class='some-page-wrapper' id='contact' className="mt-5 text-center" > <hr />
         <h1><em>Contact US</em></h1> <hr />
         <div className="container" id="abc">
